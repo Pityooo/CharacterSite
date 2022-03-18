@@ -63,10 +63,10 @@ function loadEvent() {
     document.getElementById("getGender").addEventListener("input", function(event){
         document.getElementById("genderPic").src = `img/${event.target.value}.png`
         if (event.target.value === "Male") {
-            document.getElementById("image").src = `img/maleBig.png`
+            document.getElementById("image").src = `img/MaleBig.png`
             document.getElementById("genderText").innerHTML = "As a male you can destroy your computer even faster with your bare hands, and you have advantage if you got female boss"
         } else if (event.target.value === "Female") {
-            document.getElementById("image").src = `img/femaleBig.png`
+            document.getElementById("image").src = `img/FemaleBig.png`
             document.getElementById("genderText").innerHTML = "As a female you have the THING called \"booty\", and you can climb the career ladder without even working 1 hour... "
         }
     });
